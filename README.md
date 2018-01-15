@@ -1,6 +1,6 @@
 # Logs Analysis Project
 
-This project consist of a reporting tool which print out the results of SQL queries which answer the following questions:
+This project consists of a reporting tool which print out the results of SQL queries which answer the following questions:
 
 1. What are the most popular three articles of all time?
 2. Who are the most popular article authors of all time?
@@ -8,12 +8,12 @@ This project consist of a reporting tool which print out the results of SQL quer
 
 ## Project design
 
-The code consist of two files `logs_analysis.py` and `logs_analysis_db.py`.
+The code consists of two files `logs_analysis.py` and `logs_analysis_db.py`.
 The former calls the methods to get the data necessary to display the information required and print out all the information in plain text.
 The latter contain the `LogsAnalysisDB` class which connect to the database and contains the methods to execute all the SQL queries.
 
 ## How to
-Before to run the program is necessary to create all the views required.
+Before run the program is necessary to create all the views required.
 You can find the `create view` statements below.
 
 In order to see the results of the reporting tool, it's just necessary to make executable `logs_analysis.py`:
