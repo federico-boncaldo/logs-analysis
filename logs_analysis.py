@@ -1,5 +1,5 @@
 #!/usr/bin/env python2.7
-
+'''Retrieve the data for the report and print them out'''
 import logs_analysis_db
 
 logs_db = logs_analysis_db.LogsAnalysisDB("news")
